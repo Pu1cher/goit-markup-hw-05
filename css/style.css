@@ -506,15 +506,14 @@ background-color: #404bbf;
 .footer-subscribe-email::placeholder {
   color: rgba(255, 255, 255, 1);
 }
-.footer-subscribe-button-wrapper {
-  position: relative;
-}
+
 .footer-subscribe-button-icon {
   position: absolute;
   top: 8px;
   right: 24px;
 }
 .footer-subscribe-button {
+  position: relative;
   width: 165px;
   height: 40px;
   padding: 8px 24px;
