@@ -492,14 +492,14 @@ background-color: #404bbf;
   padding: 8px 16px;
     font-size: 12px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 1);
   border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   outline: transparent;
   outline-offset: 4px;
 }
@@ -508,16 +508,17 @@ background-color: #404bbf;
 }
 
 .footer-subscribe-button-icon {
-  position: absolute;
   top: 8px;
-  right: 24px;
+  margin-left: 16px;
 }
 .footer-subscribe-button {
-  position: relative;
-  width: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
   height: 40px;
   padding: 8px 24px;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
