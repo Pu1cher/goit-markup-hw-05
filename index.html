@@ -460,6 +460,18 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="footer-subscribe-description">Subscribe</p>
+          <div class="footer-subscribe-content">
+            <input class="footer-subscribe-email" type="email" name="subscribe" placeholder="E-mail">
+           <div class="footer-subscribe-button-wrapper">
+            <button type="submit" class="footer-subscribe-button">Subscribe</button>
+            <svg class="footer-subscribe-button-icon" width="24" height="20">
+              <use href="./images/icons.svg#icon-subscribe"></use>
+            </svg>
+           </div>
+          </div>
+        </div>
       </div>
     </footer>
     <div class="backdrop">
@@ -486,12 +498,12 @@
                 type="text"
                 class="callback-form-field"
                 id="user-name"
-                name="user_name"
+                name="user-name"
                 required
                 pattern="[a-zA-Za-аЯ-ЯіІїЇєЄґҐйЙ']+"
                 title="Vladyslav"
               />
-              <svg class="callback-form-icon" height="12" width="12">
+              <svg class="callback-form-icon" height="18" width="24">
                 <use href="./images/icons.svg#icon-name"></use>
               </svg>
             </div>
@@ -510,7 +522,7 @@
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
                 title="xxx-xxx-xx-xx"
               />
-              <svg class="callback-form-icon" height="13" width="13">
+              <svg class="callback-form-icon" height="18" width="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -527,19 +539,19 @@
                 name="user_email"
                 required
               />
-              <svg class="callback-form-icon" height="12" width="15">
+              <svg class="callback-form-icon" height="18" width="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
-          <div class="callback-form-wrapper">
-            <label for="user-text" class="callback-form-field-label"
+          <div class="callback-form-wrapper callback-form-text">
+            <label for="user-comment" class="callback-form-field-label"
               >Comment</label
             >
             <textarea
               class="callback-form-textarea"
-              id="user-text"
-              name="user_text"
+              id="user-comment"
+              name="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -547,12 +559,12 @@
             <input
               class="callback-form-checkbox visually-hidden"
               type="checkbox"
-              id="user-policy"
-              name="user_policy"
+              id="user-privacy"
+              name="user_privacy"
               value="true"
               required
             />
-            <label class="callback-form-checkbox-label" for="user-policy"
+            <label class="callback-form-checkbox-label" for="user_privacy"
               ><span class="callback-form-own-checkbox"
                 ><svg
                   class="callback-form-own-checkbox-icon"
