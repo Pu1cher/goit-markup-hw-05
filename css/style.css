@@ -481,7 +481,7 @@ background-color: #404bbf;
     text-align: left;
     color: rgba(255, 255, 255, 1);
 }
-.footer-subscribe-content {
+.footer-subscribe-form {
   display: flex;
   flex-direction: row;
 }
