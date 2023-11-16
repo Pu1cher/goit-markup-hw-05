@@ -484,11 +484,11 @@ background-color: #404bbf;
 .footer-subscribe-form {
   display: flex;
   flex-direction: row;
+  gap: 24px;
 }
 .footer-subscribe-email {
   width: 264px;
   height: 40px;
-  margin-right: 24px;
   padding: 8px 16px;
     font-size: 12px;
     font-weight: 400;
